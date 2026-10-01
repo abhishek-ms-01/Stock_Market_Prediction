@@ -17,8 +17,8 @@
 </p>
 
 <p>
-  <a href="http://localhost:3000">
-    <img src="https://img.shields.io/badge/🌐_Local_Demo-Open_AlphaTrade-16a34a?style=for-the-badge" />
+  <a href="https://www.stockmarketpredictionsystem.site/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Open_AlphaTrade-16a34a?style=for-the-badge" />
   </a>
   &nbsp;
   <a href="https://github.com/abhishek-ms-01/Stock_Market_Prediction/stargazers">
@@ -96,8 +96,8 @@ The platform is designed for research and decision support. It helps users explo
       <br/><br/><b>🤖 AI Chat — RAG Market Assistant</b>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/risk.png" width="100%" alt="Risk Analysis"/>
-      <br/><br/><b>🛡️ Risk — Portfolio and Exposure Analysis</b>
+      <img src="./screenshots/live-pipeline.png" width="100%" alt="Live Pipeline"/>
+      <br/><br/><b>⚡ Live Pipeline — Backend Telemetry and Execution Flow</b>
     </td>
   </tr>
 </table>
@@ -356,7 +356,7 @@ npm install
 npm run dev
 ```
 
-Open the dashboard at **http://localhost:3000**. The API runs at **http://localhost:8000**.
+Open the live application at **https://www.stockmarketpredictionsystem.site/**. For local development, the dashboard runs at **http://localhost:3000** and the API runs at **http://localhost:8000**.
 
 ---
 
