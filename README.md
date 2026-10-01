@@ -76,27 +76,27 @@ The platform is designed for research and decision support. It helps users explo
       <br/><br/><b>🏠 Landing Page — AlphaTrade Terminal</b>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/dashboard.png" width="100%" alt="Market Dashboard"/>
+      <img src="screenshots/Screenshot 2026-10-01 101355.png" width="100%" alt="Market Dashboard"/>
       <br/><br/><b>📊 Dashboard — Market Overview</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/forecast.png" width="100%" alt="Forecast Page"/>
+      <img src="screenshots/Screenshot 2026-10-01 101453.png" width="100%" alt="Forecast Page"/>
       <br/><br/><b>🧠 Forecast — Directional Prediction</b>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/indicators.png" width="100%" alt="Technical Indicators"/>
+      <img src="screenshots/Screenshot 2026-10-01 101516.png" width="100%" alt="Technical Indicators"/>
       <br/><br/><b>📈 Indicators — Technical and Sentiment Signals</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/ai-chat.png" width="100%" alt="AI Market Chat"/>
+      <img src="screenshots/Screenshot 2026-10-01 101555.png" width="100%" alt="AI Market Chat"/>
       <br/><br/><b>🤖 AI Chat — RAG Market Assistant</b>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/live-pipeline.png" width="100%" alt="Live Pipeline"/>
+      <img src="screenshots/Screenshot 2026-10-01 101534.png" width="100%" alt="Live Pipeline"/>
       <br/><br/><b>⚡ Live Pipeline — Backend Telemetry and Execution Flow</b>
     </td>
   </tr>
