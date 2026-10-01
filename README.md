@@ -1,88 +1,103 @@
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop" alt="AlphaTrade banner" width="100%" />
 
-  <br />
-  <br />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=AlphaTrade&fontSize=90&fontColor=ffffff&fontAlignY=38&desc=Event-Driven%20Stock%20Market%20Prediction%20with%20RAG-LSTM&descAlignY=60&descSize=20&animation=fadeIn"/>
 
-  # 📈 AlphaTrade: Predictive Intelligence v2.0
-  **EVENT-DRIVEN STOCK MARKET PREDICTION SYSTEM USING RAG-LSTM**
+<br/>
 
-  <p align="center">
-    <a href="#problem-statement">Problem</a> •
-    <a href="#why-alphatrade">Why AlphaTrade?</a> •
-    <a href="#features">Features</a> •
-    <a href="#technologies">Tech Stack</a> •
-    <a href="#system-architecture">Architecture</a> •
-    <a href="#getting-started">Installation</a>
-  </p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=850&lines=📈+Predict+Short-Horizon+Market+Direction;🧠+Combine+LSTM+Forecasting+with+RAG;📰+Connect+News+Sentiment+with+Price+Action;🛡️+Understand+Risk+Before+Making+Decisions" alt="Typing SVG" />
+
+<br/>
+
+<p>
+  <img src="https://img.shields.io/badge/Status-Research%20Prototype-10B981?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-RAG%20%2B%20LSTM-4285F4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stack-Next.js%20%7C%20FastAPI-111827?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data-Market%20%2B%20News-0f766e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-Research-f59e0b?style=for-the-badge" />
+</p>
+
+<p>
+  <a href="http://localhost:3000">
+    <img src="https://img.shields.io/badge/🌐_Local_Demo-Open_AlphaTrade-16a34a?style=for-the-badge" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/abhishek-ms-01/Stock_Market_Prediction/stargazers">
+    <img src="https://img.shields.io/badge/⭐_Star_this_Repo-Show_Support-f59e0b?style=for-the-badge" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/abhishek-ms-01/Stock_Market_Prediction/issues">
+    <img src="https://img.shields.io/badge/🐛_Report_Bug-Open_Issue-dc2626?style=for-the-badge" />
+  </a>
+</p>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<br/>
+
+> ### _Market intelligence that combines numbers, news, and context._
+
+<br/>
+
 </div>
 
 ---
 
-## 🛑 Problem Statement
-Retail investors face a major disadvantage in fast-moving markets. Most trading tools still rely on lagging technical indicators or one-dimensional price history, which ignores the most important catalysts: breaking news, earnings reports, macroeconomic signals, and market sentiment.
+## 📈 What is AlphaTrade?
 
-This project solves that gap by creating a hybrid AI system that combines:
+**AlphaTrade** is a full-stack stock market intelligence and prediction platform. It combines quantitative market features, technical indicators, financial-news retrieval, sentiment signals, risk analysis, and an LSTM forecasting model inside one investor-focused dashboard.
 
-- real-time stock market data
-- technical indicators like RSI, MACD, SMA, and volatility
-- live or processed financial news sentiment
-- retrieval-based semantic analysis with RAG
-- LSTM-based forecasting for short-term price direction
+The platform is designed for research and decision support. It helps users explore market movement with:
 
-The final result is a full-stack dashboard that helps users analyze market movement using both quantitative and qualitative intelligence.
+- 📊 live and historical stock data
+- 📐 RSI, MACD, SMA, returns, volatility, and volume features
+- 📰 time-aware financial-news retrieval and sentiment analysis
+- 🧠 LSTM-based short-horizon directional forecasting
+- 🤖 RAG-powered conversational market analysis
+- 🛡️ risk scoring, market-regime detection, and portfolio guidance
 
----
+```text
+📊 Market data + 📰 financial news  →  🧠 feature fusion  →  📈 forecast + 🛡️ risk context
+```
 
-## 💡 Why AlphaTrade?
-AlphaTrade is designed for a new class of market intelligence systems that go beyond raw candle data.
-
-Instead of just analyzing OHLCV charts, the platform uses a time-aware hybrid architecture where:
-
-1. the model reads stock data
-2. computes technical indicators
-3. retrieves relevant financial news using semantic search
-4. scores the market context with sentiment and event relevance
-5. predicts the next directional move using a deep learning LSTM network
-6. exposes the result through an AI assistant and dashboard UI
-
-This makes the system feel closer to a professional analyst workflow than a simple charting tool.
+> This project is an analytical research tool, not financial advice or an automated trading system.
 
 ---
 
-## 📸 Live Screenshots
+## 📸 Platform Screenshots
 
 <div align="center">
 
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/landing.png" width="100%" alt="Landing Page" />
-      <br /><br /><b>🏠 Landing Page</b>
+      <img src="./screenshots/landing.png" width="100%" alt="AlphaTrade Landing Page"/>
+      <br/><br/><b>🏠 Landing Page — AlphaTrade Terminal</b>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/dashboard.png" width="100%" alt="Dashboard" />
-      <br /><br /><b>📊 Market Overview Dashboard</b>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="./screenshots/forecast.png" width="100%" alt="Forecast Page" />
-      <br /><br /><b>🧠 Forecast Engine</b>
-    </td>
-    <td align="center" width="50%">
-      <img src="./screenshots/indicators.png" width="100%" alt="Technical Indicators" />
-      <br /><br /><b>📈 Technical Indicators</b>
+      <img src="./screenshots/dashboard.png" width="100%" alt="Market Dashboard"/>
+      <br/><br/><b>📊 Dashboard — Market Overview</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/ai-chat.png" width="100%" alt="AI Chat" />
-      <br /><br /><b>🤖 RAG AI Chat Assistant</b>
+      <img src="./screenshots/forecast.png" width="100%" alt="Forecast Page"/>
+      <br/><br/><b>🧠 Forecast — Directional Prediction</b>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/risk.png" width="100%" alt="Risk Analysis" />
-      <br /><br /><b>🛡️ Risk & Portfolio Analysis</b>
+      <img src="./screenshots/indicators.png" width="100%" alt="Technical Indicators"/>
+      <br/><br/><b>📈 Indicators — Technical and Sentiment Signals</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./screenshots/ai-chat.png" width="100%" alt="AI Market Chat"/>
+      <br/><br/><b>🤖 AI Chat — RAG Market Assistant</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="./screenshots/risk.png" width="100%" alt="Risk Analysis"/>
+      <br/><br/><b>🛡️ Risk — Portfolio and Exposure Analysis</b>
     </td>
   </tr>
 </table>
@@ -93,180 +108,204 @@ This makes the system feel closer to a professional analyst workflow than a simp
 
 ## ✨ Core Features
 
-### 1. Event-Driven Stock Forecasting
-- Predicts directional price movement using a time-aware hybrid model
-- Uses short lookback sequences from technical and sentiment features
-- Supports multiple horizons such as intraday and daily forecasting
+<div align="center">
 
-### 2. RAG-Powered Financial Chat Assistant
-- Answers user questions using stock context and news relevance
-- Retrieves semantically similar market news articles
-- Explains model output using financial knowledge and current context
+| Module | Capability | Powered By |
+| :---: | --- | :---: |
+| 📈 **Forecast Engine** | Predict short-horizon market direction from engineered sequences | LSTM + Keras |
+| 📰 **News Intelligence** | Retrieve relevant financial news and connect events to price movement | RAG + vector search |
+| 📐 **Technical Analysis** | RSI, MACD, moving averages, returns, volatility, and volume signals | Pandas + NumPy |
+| 🤖 **AI Market Chat** | Explain market context and answer questions using retrieved knowledge | RAG assistant |
+| 🛡️ **Risk Analysis** | Analyze volatility, market regime, exposure, and portfolio signals | Risk engine |
+| ⚡ **Live Pipeline** | Bring market and news data together for dashboard analysis | FastAPI + fetchers |
 
-### 3. Technical Analysis Dashboard
-- View OHLCV-based trend data
-- Evaluate RSI, MACD, moving averages, volatility, and other market signals
-- Visualize price action with an interactive charting experience
+</div>
 
-### 4. Risk Framework
-- Calculates risk metrics such as volatility score and VaR-like estimates
-- Detects market regime using volatility and moving-average behavior
-- Provides portfolio recommendation logic based on ranking signals
+### 📈 LSTM Forecasting
 
-### 5. Live Market and News Integration
-- Fetches stock data from Yahoo Finance and related sources
-- Uses data ingestion modules for price and news processing
-- Builds a pipeline around event-driven sentiment and price movement analysis
+> Turn engineered market history into an interpretable directional outlook.
+
+- Builds sequences from technical and market features
+- Uses an LSTM model stored at `backend/models/lstm_model.h5`
+- Produces forecast direction, confidence, and supporting signals
+- Includes evaluation and online-training modules for research workflows
+
+### 📰 Time-Aware RAG
+
+> Market news matters differently depending on when it arrives.
+
+- Indexes financial documents and news content
+- Retrieves semantically relevant context for a stock or question
+- Considers temporal relevance when building market context
+- Feeds retrieved information into the chatbot and analysis workflow
+
+### 📐 Technical Indicators
+
+> Read price action through multiple quantitative lenses.
+
+- Relative Strength Index (RSI)
+- Moving averages and SMA relationships
+- Moving Average Convergence Divergence (MACD)
+- Returns, volatility, volume ratios, and event features
+
+### 🛡️ Risk and Portfolio Intelligence
+
+> Understand the risk around a signal before interpreting it.
+
+- Volatility and risk scoring
+- Market-regime detection
+- Portfolio ranking and recommendation logic
+- Context for comparing prediction confidence with market conditions
 
 ---
 
-## 🧠 Model & Architecture Overview
-
-The project blends three major signals:
-
-- Quantitative features: RSI, MACD, returns, volatility, SMA ratio, volume ratio
-- Semantic features: news sentiment, event classification, relevance scoring
-- Deep learning: LSTM model trained on 5-step historical market sequences
-
-The overall flow is:
+## 🔁 Prediction Workflow
 
 ```mermaid
 flowchart TD
-    A[Stock Data] --> B[Technical Indicator Engine]
-    C[News Data] --> D[Sentiment + Event Analysis]
-    B --> E[Feature Engineering]
+    A([📊 Stock Price Data]) --> B[📐 Feature Engineering]
+    C([📰 Financial News]) --> D[🧠 Sentiment and Event Analysis]
+    B --> E[🔗 Feature Fusion]
     D --> E
-    E --> F[RAG + News Relevance Layer]
-    F --> G[LSTM Forecast Model]
-    G --> H[AI Dashboard + Risk + Chat]
+    E --> F[🕒 Time-Aware RAG Retrieval]
+    F --> G[📈 LSTM Forecast Model]
+    G --> H[🛡️ Risk and Market Regime Layer]
+    H --> I[🖥️ Dashboard, Chat, and Portfolio Views]
+
+    style A fill:#166534,color:#fff,stroke:#15803d
+    style C fill:#1e3a5f,color:#fff,stroke:#2563eb
+    style E fill:#3b0764,color:#fff,stroke:#7c3aed
+    style F fill:#1e1b4b,color:#fff,stroke:#4f46e5
+    style G fill:#14532d,color:#fff,stroke:#16a34a
+    style H fill:#78350f,color:#fff,stroke:#f59e0b
+    style I fill:#0f766e,color:#fff,stroke:#14b8a6
 ```
 
-The architecture is built as a hybrid system where numerical price behavior and textual market information are both considered before generating a market outlook.
+---
+
+## 🏗 System Architecture
+
+```mermaid
+graph TB
+    subgraph CLIENT["🖥️ Next.js Frontend"]
+        L[Landing Page]
+        D[Dashboard]
+        F[Forecast]
+        T[Indicators]
+        C[AI Chat]
+        R[Risk]
+    end
+
+    subgraph API["⚙️ FastAPI Backend"]
+        S[Stock and Quote APIs]
+        P[Prediction APIs]
+        N[News and RAG APIs]
+        Q[Risk and Portfolio APIs]
+    end
+
+    subgraph ML["🧠 Intelligence Layer"]
+        I[Technical Indicators]
+        E[Event and Sentiment Analysis]
+        V[Vector Retrieval]
+        M[LSTM Model]
+    end
+
+    subgraph DATA["💾 Data Sources"]
+        MD[(Market Data)]
+        ND[(Financial News)]
+        DS[(Processed Datasets)]
+    end
+
+    CLIENT --> API
+    API --> ML
+    ML --> DATA
+    DATA --> ML
+    ML --> API
+
+    style CLIENT fill:#0f2027,color:#fff,stroke:#10B981
+    style API fill:#111827,color:#fff,stroke:#6366f1
+    style ML fill:#1e1b4b,color:#fff,stroke:#f59e0b
+    style DATA fill:#16324f,color:#fff,stroke:#06b6d4
+```
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Tech Stack
 
-### Frontend
-- Next.js 14
-- React
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-- Recharts
-- lightweight-charts
-- Zustand state management
+<div align="center">
 
-### Backend
-- FastAPI
-- Python
-- Pandas
-- NumPy
-- scikit-learn
-- TensorFlow / Keras
-- yfinance
-- NLTK
-- FAISS
-- News API & market data fetchers
+**Frontend**
 
-### AI / Analytics Layer
-- LSTM neural network forecasting
-- RSI, MACD, MA, volatility feature extraction
-- event-aware sentiment analysis
-- semantic retrieval using vector search
-- market regime detection and risk analysis
+![Next.js](https://img.shields.io/badge/Next.js_14-111827?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0EA5E9?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge)
+
+**Backend and Machine Learning**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+**Market Intelligence**
+
+![RAG](https://img.shields.io/badge/RAG-Time--Aware%20Retrieval-7c3aed?style=for-the-badge)
+![News](https://img.shields.io/badge/News-Sentiment%20Analysis-0f766e?style=for-the-badge)
+![LSTM](https://img.shields.io/badge/Model-LSTM-f59e0b?style=for-the-badge)
+
+</div>
 
 ---
 
-## 📂 Project Structure
+## 📁 Folder Structure
 
 ```text
-stock_market_prediction-with-RAG_LSTM-main/
+Stock_Market_Prediction/
+│
 ├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── routes.py
-│   │   └── main.py
-│   ├── chatbot/
-│   │   ├── chatbot.py
-│   │   └── rag_engine.py
-│   ├── data_ingestion/
-│   │   ├── live_news_fetcher.py
-│   │   ├── multi_source_fusion.py
-│   │   ├── upstox_fetcher.py
-│   │   └── ...
-│   ├── event_detection/
-│   ├── feature_engineering/
-│   ├── indicators/
-│   ├── market_regime/
-│   ├── models/
-│   │   ├── lstm_model.h5
-│   │   └── neural_models.py
-│   ├── nlp/
-│   ├── portfolio/
-│   ├── prediction/
-│   │   ├── online_trainer.py
-│   │   ├── predict.py
-│   │   ├── train_lstm.py
-│   │   └── evaluate_models.py
-│   ├── rag/
-│   │   ├── financial_graph.py
-│   │   └── time_aware_rag.py
-│   ├── risk/
-│   ├── sentiment/
-│   ├── utils/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── .env.example
+│   ├── main.py                    # FastAPI entry point and stock APIs
+│   ├── app/api/routes.py          # Application routes
+│   ├── data_ingestion/            # Market and news fetchers
+│   ├── feature_engineering/       # Model-ready feature creation
+│   ├── indicators/                # RSI, MACD, and moving averages
+│   ├── models/                    # Neural models and saved LSTM model
+│   ├── nlp/                       # Financial NLP and event extraction
+│   ├── prediction/                # Training, evaluation, and inference
+│   ├── rag/                       # Financial graph and time-aware RAG
+│   ├── risk/                      # Risk analysis logic
+│   ├── sentiment/                 # Sentiment processing
+│   ├── chatbot/                   # Market assistant and retrieval flow
+│   ├── data/                      # CSV datasets and processed data
+│   └── requirements.txt           # Python dependencies
+│
 ├── frontend/
-│   ├── src/
-│   ├── package.json
-│   ├── next.config.mjs
-│   └── ...
-├── screenshots/
-│   ├── landing.png
-│   ├── dashboard.png
-│   ├── forecast.png
-│   ├── indicators.png
-│   ├── ai-chat.png
-│   └── risk.png
-├── docker-compose.yml
-├── HOW_IT_WORKS.md
-├── README.md
-└── .gitignore
+│   ├── src/app/                   # Next.js pages and dashboard routes
+│   ├── src/components/            # Charts, layout, and metric components
+│   ├── src/hooks/                 # Data-fetching hooks
+│   ├── src/lib/api/               # API client and shared types
+│   └── package.json               # Frontend dependencies
+│
+├── screenshots/                   # README product screenshots
+├── HOW_IT_WORKS.md                # Detailed technical explanation
+├── docker-compose.yml              # Container orchestration configuration
+└── README.md                      # Project documentation
 ```
 
 ---
 
-## 🔄 How the System Works
-
-### 1. Data Collection
-The system gathers price history and related market context from financial sources and data fetchers.
-
-### 2. Indicator Engineering
-Features such as RSI, MACD, return ratios, volatility, and volume normalization are computed from historical data.
-
-### 3. News & Semantic Integration
-Relevant news contextualizes the price series. The system scores sentiment and compares arrival time with market periods.
-
-### 4. Forecast Generation
-A sequence of engineered features is fed into an LSTM model that produces a directional signal and confidence score.
-
-### 5. Risk & Decision Layer
-The platform estimates risk, identifies regime state, and produces decision-focused views for users and portfolio logic.
-
-### 6. User Experience Layer
-The dashboard and chatbot present the output in a visually rich, investor-friendly interface.
-
----
-
-## 🚀 Getting Started
+## 🚀 Installation and Setup
 
 ### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- npm
-- Git
+
+| Tool | Version |
+| --- | --- |
+| Python | 3.10+ |
+| Node.js | 18+ |
+| npm | 9+ |
+| Git | Latest |
 
 ### 1. Clone the Repository
 
@@ -275,13 +314,15 @@ git clone https://github.com/abhishek-ms-01/Stock_Market_Prediction.git
 cd Stock_Market_Prediction
 ```
 
-### 2. Backend Setup
+### 2. Set Up the Backend
 
 ```bash
 cd backend
 python -m venv .venv
+
 # Windows
 .venv\Scripts\activate
+
 # macOS/Linux
 source .venv/bin/activate
 
@@ -289,28 +330,25 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configure Environment Variables
-Copy the example file and fill in the necessary API keys:
 
 ```bash
-cp .env.example .env
+# From the backend directory
+copy .env.example .env        # Windows
+# cp .env.example .env        # macOS/Linux
 ```
 
-Then update the values for:
+Add the API credentials required by your selected market and news providers to `backend/.env`. Never commit private keys or tokens.
 
-- News API
-- Finnhub
-- Upstox / Zerodha credentials
-- any additional market data configuration keys
-
-### 4. Run the Backend
+### 4. Start the Backend
 
 ```bash
 cd backend
 python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### 5. Run the Frontend
-Open a second terminal and run:
+### 5. Start the Frontend
+
+Open a second terminal:
 
 ```bash
 cd frontend
@@ -318,93 +356,115 @@ npm install
 npm run dev
 ```
 
-The dashboard will be available at:
-
-```text
-http://localhost:3000
-```
-
-The API will be available at:
-
-```text
-http://localhost:8000
-```
+Open the dashboard at **http://localhost:3000**. The API runs at **http://localhost:8000**.
 
 ---
 
 ## 📡 Main API Routes
 
-The backend exposes endpoints for stock data, forecasting, chat, risk, and portfolio intelligence.
-
-- `GET /api/stocks`
-- `GET /api/stock-data`
-- `GET /api/quote/realtime`
-- `POST /api/chat`
-- `GET /api/forecast`
-- `GET /api/predict`
-- `POST /api/train-model`
-- `GET /api/risk`
-- `GET /api/portfolio`
-
-These endpoints feed the dashboard and provide the data needed by the AI assistant and model interface.
+| Method | Route | Purpose |
+| :---: | --- | --- |
+| `GET` | `/api/stocks` | Available stock symbols and market data |
+| `GET` | `/api/stock-data` | Historical stock data and indicators |
+| `GET` | `/api/quote/realtime` | Current quote information |
+| `GET` | `/api/forecast` | Forecast and directional signal |
+| `GET` | `/api/predict` | Prediction output for a selected symbol |
+| `POST` | `/api/chat` | RAG-powered market conversation |
+| `GET` | `/api/risk` | Risk and market-condition analysis |
+| `GET` | `/api/portfolio` | Portfolio guidance and ranking signals |
+| `POST` | `/api/train-model` | Trigger model-training workflow |
 
 ---
 
-## 🧪 Notes on Model Behavior
+## 📊 Dashboard Modules
 
-The prediction engine is designed for short-horizon directional analysis and should be understood as an analytical tool rather than a guaranteed trading signal. It is most useful when combined with:
+<div align="center">
 
-- human judgment
-- risk management
-- broader market context
-- additional technical or macro research
+| # | Module | Route | Description |
+| :-: | --- | --- | --- |
+| 1 | 🏠 Landing | `/` | AlphaTrade introduction and product entry point |
+| 2 | 📊 Dashboard | `/dashboard` | Market overview, metrics, and chart context |
+| 3 | 🧠 Forecast | `/dashboard/forecast` | Prediction direction and model signals |
+| 4 | 📈 Indicators | `/dashboard/indicators` | Technical and sentiment indicators |
+| 5 | 🤖 AI Chat | `/dashboard/ai-chat` | Context-aware financial assistant |
+| 6 | 🛡️ Risk | `/dashboard/risk` | Risk, regime, and portfolio analysis |
+| 7 | ⚡ Live Pipeline | `/dashboard/live-pipeline` | Data-ingestion and processing visibility |
 
-The platform is optimized for prototype, research, and dashboard exploration workflows rather than direct production trading execution.
-
----
-
-## 📘 Additional Documentation
-
-For the full technical breakdown, review:
-
-- `HOW_IT_WORKS.md`
-- backend model and engine modules under `backend/`
-- frontend dashboard features under `frontend/src/app/dashboard/`
+</div>
 
 ---
 
-## 🤝 Contribution
+## 🔬 Research Notes
 
-Contributions, ideas, and improvements are welcome.
+AlphaTrade is intended for educational, research, and dashboard exploration workflows. Forecasts are probabilistic outputs from historical and contextual data. They can be affected by data freshness, market regime changes, news quality, model drift, and unexpected events.
+
+Do not use the application as a substitute for professional financial advice. Validate signals independently and apply appropriate risk management before making investment decisions.
+
+---
+
+## 🔮 Roadmap
+
+<div align="center">
+
+| Status | Planned Improvement |
+| :---: | --- |
+| 🔜 | Broader real-time market-provider integrations |
+| 🔜 | More robust model calibration and uncertainty reporting |
+| 🔜 | Expanded event taxonomy for financial news |
+| 🔜 | Walk-forward validation and automated model monitoring |
+| 🔜 | Portfolio backtesting and scenario analysis |
+| 🔜 | Cloud deployment with production observability |
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+Contributions, experiments, and improvements are welcome.
 
 ```bash
-git checkout -b feature/my-improvement
-# make changes
-git commit -m "feat: add market signal enhancement"
-git push origin feature/my-improvement
+git checkout -b feature/your-improvement
+# make your changes
+git add .
+git commit -m "feat: describe your improvement"
+git push origin feature/your-improvement
 ```
+
+Then open a pull request with a clear explanation of the change and its validation.
 
 ---
 
 ## 📄 License
 
-This project is provided for educational and research-oriented use. Please review the repository license before commercial deployment.
+This project is provided for educational and research purposes. Review the repository contents and applicable third-party terms before commercial deployment.
 
 ---
 
-## 👨‍💻 Project Summary
-
-AlphaTrade is a research-driven stock intelligence platform that fuses:
-
-- deep learning prediction
-- time-aware market news retrieval
-- technical analysis
-- risk profiling
-- AI-based conversational analysis
-
-It is built to help traders and researchers understand market movement with both data and contextual reasoning, all within a single intelligent terminal.
+## 👨‍💻 Author
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" />
+
+_Full-Stack AI Developer · Market Intelligence Builder_
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-%40abhishek--ms--01-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhishek-ms-01)
+&nbsp;&nbsp;
+[![Repository](https://img.shields.io/badge/Repository-Stock_Market_Prediction-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhishek-ms-01/Stock_Market_Prediction)
+
+<br/>
+
 </div>
 
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn"/>
+
+<br/>
+
+**Built with data, models, and market context.**
+
+</div>
