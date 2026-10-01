@@ -72,7 +72,7 @@ The platform is designed for research and decision support. It helps users explo
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="Screenshot 2026-10-01 101301.png" width="100%" alt="AlphaTrade Landing Page"/>
+      <img src="screenshots/Screenshot 2026-10-01 101301.png" width="100%" alt="AlphaTrade Landing Page"/>
       <br/><br/><b>🏠 Landing Page — AlphaTrade Terminal</b>
     </td>
     <td align="center" width="50%">
